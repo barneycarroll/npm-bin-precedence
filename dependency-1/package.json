@@ -1,0 +1,7 @@
+{
+  "name"    : "dependency-1",
+  "private" : true,
+  "bin"     : {
+    "conflicting-command" : "./index.js"
+  }
+}
