@@ -1,0 +1,12 @@
+{
+  "name": "consumer-1",
+  "private": true,
+  "dependencies": {
+    "dependency-foo": "file:../dependency-foo",
+    "dependency-bar": "file:../dependency-bar"
+  },
+  "scripts": {
+    "test": "npm i && conflicting-command",
+    "reset": "rm package-lock.json && rm -rf node_modules"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "consumer-3",
+  "private": true,
+  "scripts": {
+    "test": "npm i ../dependency-foo ../dependency-bar && conflicting-command",
+    "reset": "rm package-lock.json && rm -rf node_modules"
+  }
+}

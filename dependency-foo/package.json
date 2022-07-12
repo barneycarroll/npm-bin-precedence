@@ -1,5 +1,5 @@
 {
-  "name"    : "dependency-1",
+  "name"    : "dependency-foo",
   "private" : true,
   "bin"     : {
     "conflicting-command" : "./index.js"
